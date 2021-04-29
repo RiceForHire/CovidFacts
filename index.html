@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<!-- https://www.w3schools.com/cssref/ -->
+<!-- css documentation - all the css styles -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Covid Facts</title>
+    
+    <link rel="icon" type="image/png" href="https://img.mlo-online.com/files/base/ebm/mlo/image/2020/05/Pixabay_coronavirus_5107715_1280.5eb16e6f5f05a.png?auto=format&fit=max&w=1200"/>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container">
+          <img id="navcorona" style="margin-right: 30px;" src=" https://img.mlo-online.com/files/base/ebm/mlo/image/2020/05/Pixabay_coronavirus_5107715_1280.5eb16e6f5f05a.png?auto=format&fit=max&w=1200">
+         </img>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid Facts</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Quiz</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Discord Info</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Newsletter</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#donate">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container"><img id="coronaImg" class="img-fluid d-block mx-auto mb-5" src="https://img.mlo-online.com/files/base/ebm/mlo/image/2020/05/Pixabay_coronavirus_5107715_1280.5eb16e6f5f05a.png?auto=format&fit=max&w=1200">
+            <h1>Covid Facts</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">COVID-19 News - Debate on COVID-19 Discord Server - Quizzes</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Quiz</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-12 col-lg-12"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
+                      <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                          <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                      </div><img id="quizimg"class="img-fluid" src="https://www.miamidade.gov/resources/images/initiatives/coronavirus/clean.jpg">
+                  </a></div>
+            </div>
+        </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">Discord Server</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div id="discord" class="col-lg-4 ml-auto">
+                    <p class="lead">This is a discord server to be able to debate on different subject while reporting a Covid-19. You can Click on the link to join the discord server.</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p id="discord2" class="lead">You can also ask questions about the discord, or suggest new ideas that we can implement in the future. (in relation to covid-19).</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+              <a class="btn btn-outline-light btn-xl" role="button" href="https://discord.gg/hTJHMgn4Ny"><i class="fa fa-download mr-2"></i><span>Server link</span></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">Sign up for daily facts on COVID-19</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" required="" placeholder="Name"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" required="" placeholder="Email Address"><small class="form-text text-danger help-block"></small></div>
+                        
+                        </div>
+                        <div id="success"></div>
+                        <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                        <a class="btn btn-outline-dark btn-xl" role="button" href="https://JHack.22steven.repl.co/goodemail.html"><i class="fa fa-download mr-2"></i><span>Email Preview</span></a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="text-white bg-primary mb-0" id="donate">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-black">Donate</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div id="discord" class="col-lg-4 ml-auto">
+                    <p id="donate1" class="lead"> You can donate as this site to help us in future projects.</p>
+                    <p  id="donate">-If you donate you could benefit from a @Donator rank on the discord server.</p>
+                    <p  id="donate">- Is to have more license in addition to the other members.</p>
+                     <p  id="donate">- Have your name in the credit of the website. </p>
+                    
+                    
+
+
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    
+            </div>
+            <div class="text-center mt-4">
+              <a class="btn btn-outline-light btn-xl" role="button" href="#"><i class="fa fa-dollar-sign"></i><span>Donate for the website </span></a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="text-center text-white copyright py-4">
+          <div class="container"><small>Copyright ©&nbsp;Covid Facts 2021</small></div>
+        </div>
+    </footer>
+
+
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center text-white d-block js-scroll-trigger rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <p class="Z-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0"> Quiz</h2>
+                                <hr class="star-dark mb-5">
+                            </div>
+                        </div>
+                    </div>
+                   <iframe src="https://quizlet.com/560426744/match/embed?i=3f7ggu&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Quiz</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/submarine.png">
+                                <p class="mb-5">You will receive this type of email when we send you information about COVID-19.
+                               With that you will be a real boss in the knowledge of COVID-19.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close project</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
